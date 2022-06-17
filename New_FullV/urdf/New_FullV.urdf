@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="New_FullV">
+  
+<link name="base_footprint"/>
+  <joint name="base_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="base_footprint"/>
+    <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+   </joint>
+  
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.000331574479321028 -0.225371291598782 -0.0793925722739825"
+        rpy="0 0 0" />
+      <mass
+        value="6.54460351145057" />
+      <inertia
+        ixx="0.0471189949127026"
+        ixy="-3.27728363614189E-05"
+        ixz="3.25530050754859E-06"
+        iyy="0.0215258478948645"
+        iyz="9.7950268556355E-06"
+        izz="0.0593185529107536" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/col_meshes/base_link_col.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Left_Wheel">
+    <inertial>
+      <origin
+        xyz="0.000108350032900772 6.02155270090776E-09 -1.69884323275582E-09"
+        rpy="0 0 0" />
+      <mass
+        value="0.315276569861491" />
+      <inertia
+        ixx="0.000533632299554913"
+        ixy="3.03160755548526E-14"
+        ixz="-1.34265756951814E-13"
+        iyy="0.000312962832405713"
+        iyz="6.85954446527566E-10"
+        izz="0.00031296480300931" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/Left_Wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/col_meshes/LeftWheel_col.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LeftWheel"
+    type="continuous">
+    <origin
+      xyz="0.0999026405251898 -0.203887010913905 -0.17663355868148"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Left_Wheel" />
+    <axis
+      xyz="1 0 0" />
+
+  </joint>
+  <link
+    name="Right_Wheel">
+    <inertial>
+      <origin
+        xyz="0.0403038500091552 -2.80504508509694E-11 -2.42808551043083E-12"
+        rpy="0 0 0" />
+      <mass
+        value="0.315276569861491" />
+      <inertia
+        ixx="0.000533632299554914"
+        ixy="8.13449935771744E-14"
+        ixz="-1.11039588849408E-13"
+        iyy="0.000312962644072012"
+        iyz="-2.5284945770899E-10"
+        izz="0.000312964991343013" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/Right_Wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/col_meshes/RightWheel_col.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="RightWheel"
+    type="continuous">
+    <origin
+      xyz="-0.140328140501434 -0.203900000136937 -0.17663168982824"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Right_Wheel" />
+    <axis
+      xyz="1 0 0" />
+
+  </joint>
+  <link
+    name="BL_Caster">
+    <inertial>
+      <origin
+        xyz="0 0 2.77555756156289E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.00237351847563133" />
+      <inertia
+        ixx="6.50112644271611E-08"
+        ixy="5.08495826249623E-25"
+        ixz="-3.09894854085248E-24"
+        iyy="6.50112644271611E-08"
+        iyz="-5.12482699852966E-27"
+        izz="6.50112644271611E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/BL_Caster.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/col_meshes/BLCaster_col.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="BLCaster"
+    type="continuous">
+    <origin
+      xyz="0.0654000000000046 -0.0613999999999086 -0.227904433619635"
+      rpy="3.14159265358854 0 3.14159265358979" />
+    <parent
+      link="base_link" />
+    <child
+      link="BL_Caster" />
+    <axis
+      xyz="-0.565194465755184 -0.124898921678226 0.81544802117813" />
+
+  </joint>
+  <link
+    name="BR_Caster">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.00237351847563133" />
+      <inertia
+        ixx="6.50112644271611E-08"
+        ixy="-2.39572184911013E-24"
+        ixz="2.73796782754761E-24"
+        iyy="6.50112644271611E-08"
+        iyz="3.42245978443574E-24"
+        izz="6.50112644271611E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/BR_Caster.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/col_meshes/BRCaster_col.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="BRCaster"
+    type="continuous">
+    <origin
+      xyz="-0.0655999999999954 -0.06139999999991 -0.227904433619637"
+      rpy="3.14159265358854 0 3.14159265358979" />
+    <parent
+      link="base_link" />
+    <child
+      link="BR_Caster" />
+    <axis
+      xyz="-0.297531088340671 -0.264831921445736 -0.917245498682973" />
+
+  </joint>
+  <link
+    name="FL_Caster">
+    <inertial>
+      <origin
+        xyz="5.55111512312578E-17 0 2.77555756156289E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.00237351847563133" />
+      <inertia
+        ixx="6.50112644271611E-08"
+        ixy="2.26474908851908E-24"
+        ixz="2.33655989101008E-24"
+        iyy="6.50112644271611E-08"
+        iyz="1.66897163829445E-24"
+        izz="6.50112644271611E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/FL_Caster.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/col_meshes/FLCaster_col.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="FLCaster"
+    type="continuous">
+    <origin
+      xyz="0.0654000000000076 -0.346399999999909 -0.227904433619634"
+      rpy="3.14159265358854 0 3.14159265358979" />
+    <parent
+      link="base_link" />
+    <child
+      link="FL_Caster" />
+    <axis
+      xyz="0.731107508565476 0.460710451172355 0.503217339824203" />
+
+  </joint>
+  <link
+    name="FR_Caster">
+    <inertial>
+      <origin
+        xyz="5.55111512312578E-17 -1.73472347597681E-18 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.00237351847563133" />
+      <inertia
+        ixx="6.50112644271611E-08"
+        ixy="-1.16726589036828E-37"
+        ixz="9.4039548065783E-38"
+        iyy="6.50112644271611E-08"
+        iyz="0"
+        izz="6.50112644271611E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/FR_Caster.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/col_meshes/FRCaster_col.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="FRCaster"
+    type="continuous">
+    <origin
+      xyz="-0.0655999999999923 -0.34639999999991 -0.227904433619636"
+      rpy="3.14159265358854 0 3.14159265358979" />
+    <parent
+      link="base_link" />
+    <child
+      link="FR_Caster" />
+    <axis
+      xyz="0 0 -1" />
+
+  </joint>
+  <link
+    name="Kinect">
+    <inertial>
+      <origin
+        xyz="0.000626898070972548 -0.0338832834756549 0.00313819603583304"
+        rpy="0 0 0" />
+      <mass
+        value="0.66641823338618" />
+      <inertia
+        ixx="0.000349250143853462"
+        ixy="-1.92431727330452E-05"
+        ixz="2.81048502333453E-06"
+        iyy="0.00320424788835701"
+        iyz="1.10158866384634E-05"
+        izz="0.00334143657765421" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 1.57079632679490" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/Kinect.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.101960784313725 0.101960784313725 0.101960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/col_meshes/Kinect_col.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="kinect"
+    type="fixed">
+    <origin
+      xyz="0 -0.380999999999906 -0.0483100000000007"
+      rpy="0 0 -1.57079632679490" />
+    <parent
+      link="base_link" />
+    <child
+      link="Kinect" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="IMU">
+    <inertial>
+      <origin
+        xyz="0 9.16489106828067E-14 -0.000571500000000003"
+        rpy="0 0 0" />
+      <mass
+        value="0.000827468902416794" />
+      <inertia
+        ixx="1.64542279519253E-08"
+        ixy="-1.30602582965358E-11"
+        ixz="-2.34175904688856E-25"
+        iyy="2.98948103591091E-08"
+        iyz="-5.99290881023799E-23"
+        izz="4.61688639910188E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/IMU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.529411764705882 0.549019607843137 0.549019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://New_FullV/meshes/col_meshes/IMU_col.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="imu"
+    type="fixed">
+    <origin
+      xyz="-0.11444868596453 -0.0140883476245309 -0.0785347669529727"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="IMU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+
+<gazebo reference="Left_Wheel">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <kp>500000.0</kp>
+    <kd>10.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>1.0</maxVel>
+    <fdir1>1 0 0</fdir1>
+  </gazebo>
+
+<gazebo reference="Right_Wheel">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <kp>500000.0</kp>
+    <kd>10.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>1.0</maxVel>
+    <fdir1>1 0 0</fdir1>
+  </gazebo>
+
+<gazebo reference="BL_Caster">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>1.0</maxVel>
+  </gazebo>
+
+<gazebo reference="FL_Caster">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>1.0</maxVel>
+  </gazebo>
+
+<gazebo reference="BR_Caster">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>1.0</maxVel>
+  </gazebo>
+
+<gazebo reference="FR_Caster">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>1.0</maxVel>
+  </gazebo>
+  
+  
+<gazebo>
+    <plugin name="joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">
+      <jointName>FRCaster, FLCaster, BRCaster, BLCaster</jointName>
+    </plugin>
+  </gazebo>
+  
+  
+
+
+  <gazebo reference="Kinect">
+  <sensor name="Kinect_camera" type="depth">
+    <update_rate>20</update_rate>
+    <always_on>1</always_on>
+    <visualize>true</visualize>
+    <camera>
+      <horizontal_fov>1.047198</horizontal_fov>
+      <image>
+        <width>640</width>
+        <height>480</height>
+        <format>R8G8B8</format>
+      </image>
+      <clip>
+        <near>0.05</near>
+        <far>3</far>
+      </clip>
+    </camera>
+      <plugin name="kinect_camera_controller" filename="libgazebo_ros_openni_kinect.so">
+        <cameraName>camera</cameraName>
+	<alwaysOn>true</alwaysOn>
+	<updateRate>10</updateRate>
+	<imageTopicName>rgb/image_raw</imageTopicName>
+	<depthImageTopicName>depth/image_raw</depthImageTopicName>
+	<pointCloudTopicName>depth/points</pointCloudTopicName>
+	<cameraInfoTopicName>rgb/camera_info</cameraInfoTopicName>
+	<depthImageCameraInfoTopicName>depth/camera_info</depthImageCameraInfoTopicName>
+	<frameName>Kinect</frameName>
+	<baseline>0.1</baseline>
+	<distortion_k1>0.0</distortion_k1>
+	<distortion_k2>0.0</distortion_k2>
+	<distortion_k3>0.0</distortion_k3>
+	<distortion_t1>0.0</distortion_t1>
+	<distortion_t2>0.0</distortion_t2>
+	<pointCloudCutoff>0.4</pointCloudCutoff>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+
+
+
+<gazebo>
+  <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
+
+    <!-- Plugin update rate in Hz -->
+    <updateRate>50</updateRate>
+
+    <!-- Name of left joint, defaults to `left_joint` -->
+    <leftJoint>LeftWheel</leftJoint>
+
+    <!-- Name of right joint, defaults to `right_joint` -->
+    <rightJoint>RightWheel</rightJoint>
+
+    <!-- The distance from the center of one wheel to the other, in meters, defaults to 0.34 m -->
+    <wheelSeparation>0.25</wheelSeparation>
+
+    <!-- Diameter of the wheels, in meters, defaults to 0.15 m -->
+    <wheelDiameter>0.112</wheelDiameter>
+
+    <!-- Wheel acceleration, in rad/s^2, defaults to 0.0 rad/s^2 -->
+    <wheelAcceleration>1.0</wheelAcceleration>
+
+    <!-- Maximum torque which the wheels can produce, in Nm, defaults to 5 Nm -->
+    <wheelTorque>5</wheelTorque>
+
+    <!-- Topic to receive geometry_msgs/Twist message commands, defaults to `cmd_vel` -->
+    <commandTopic>cmd_vel</commandTopic>
+
+    <!-- Topic to publish nav_msgs/Odometry messages, defaults to `odom` -->
+    <odometryTopic>odom</odometryTopic>
+
+    <!-- Odometry frame, defaults to `odom` -->
+    <odometryFrame>odom</odometryFrame>
+
+    <!-- Robot frame to calculate odometry from, defaults to `base_footprint` -->
+    <robotBaseFrame>base_link</robotBaseFrame>
+
+    <!-- Odometry source, 0 for ENCODER, 1 for WORLD, defaults to WORLD -->
+    <odometrySource>1</odometrySource>
+
+    <!-- Set to true to publish transforms for the wheel links, defaults to false -->
+    <publishWheelTF>true</publishWheelTF>
+
+    <!-- Set to true to publish transforms for the odometry, defaults to true -->
+    <publishOdom>true</publishOdom>
+
+    <!-- Set to true to publish sensor_msgs/JointState on /joint_states for the wheel joints, defaults to false -->
+    <publishWheelJointState>true</publishWheelJointState>
+
+    <!-- Set to true to swap right and left wheels, defaults to true -->
+    <legacyMode>false</legacyMode>
+  </plugin>
+</gazebo>
+</robot>

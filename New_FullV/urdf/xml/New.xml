@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/22/22||15:16:47" using="Simscape Multibody Link Version 5.2" from="SolidWorks 29.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="New" uid="New" version="6518">
+<AssemblyFile name="New.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="MPU 6050 IMU-1" uid="MPU 6050 IMU-1" entityUid="MPU 6050 IMU" rigid="true">
+<Transform>
+<Rotation>-1 0 -6.9829626776862667e-15 -6.9829626776862667e-15 -3.4914813388431334e-15 1 0 1 3.4914813388431334e-15</Rotation>
+<Translation>0.12939534404827208 0.35120478289896595 0.38971831738091872</Translation>
+</Transform>
+<Instance name="pin header-8" uid="pin header-8" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -1.2755490226518626e-16 -9.2148511043887993e-15 1.2755490226518665e-16 -1 0 -9.2148511043887993e-15 0 1</Rotation>
+<Translation>-0.0017553844134715058 0.010386866740018319 0.0098416039448019355</Translation>
+</Transform>
+</Instance>
+<Instance name="pin header-6" uid="pin header-6" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -1.2755490226518626e-16 -9.2148511043887993e-15 1.2755490226518665e-16 -1 0 -9.2148511043887993e-15 0 1</Rotation>
+<Translation>0.0033246155865284954 0.010386866740018319 0.0098416039448018799</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small-7" uid="Resistor small-7" entityUid="Resistor small*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.0033702155865285022 0.011531423749928049 0.019321603944801868</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small black-4" uid="Resistor small black-4" entityUid="Resistor small black*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.0111276155865285 0.011529866740018324 0.015697603944801852</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small black-5" uid="Resistor small black-5" entityUid="Resistor small black*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.0018702155865285008 0.011529866740018324 0.015697225667557713</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small-6" uid="Resistor small-6" entityUid="Resistor small*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.011127615586528514 0.011531423749928049 0.019321603944801868</Translation>
+</Transform>
+</Instance>
+<Instance name="pin header-7" uid="pin header-7" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -1.2755490226518626e-16 -9.2148511043887993e-15 1.2755490226518665e-16 -1 0 -9.2148511043887993e-15 0 1</Rotation>
+<Translation>0.00078461558652850871 0.010386866740018319 0.0098416039448018799</Translation>
+</Transform>
+</Instance>
+<Instance name="pin header-4" uid="pin header-4" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -1.2755490226518626e-16 -9.2148511043887993e-15 1.2755490226518665e-16 -1 0 -9.2148511043887993e-15 0 1</Rotation>
+<Translation>0.0084046155865285105 0.010386866740018319 0.0098416039448018799</Translation>
+</Transform>
+</Instance>
+<Instance name="pin header-5" uid="pin header-5" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -1.2755490226518626e-16 -9.2148511043887993e-15 1.2755490226518665e-16 -1 0 -9.2148511043887993e-15 0 1</Rotation>
+<Translation>0.0058646155865285099 0.010386866740018319 0.0098416039448018799</Translation>
+</Transform>
+</Instance>
+<Instance name="pin header-2" uid="pin header-2" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -1.2755490226518626e-16 -9.2148511043887993e-15 1.2755490226518665e-16 -1 0 -9.2148511043887993e-15 0 1</Rotation>
+<Translation>0.013484615586528498 0.010386866740018319 0.0098416039448018799</Translation>
+</Transform>
+</Instance>
+<Instance name="pin header-3" uid="pin header-3" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -1.2755490226518626e-16 -9.2148511043887993e-15 1.2755490226518665e-16 -1 0 -9.2148511043887993e-15 0 1</Rotation>
+<Translation>0.010944615586528511 0.010386866740018319 0.0098416039448018799</Translation>
+</Transform>
+</Instance>
+<Instance name="sensor chip-1" uid="sensor chip-1" entityUid="sensor chip*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0072489155865285149 0.011549866740018289 0.017446603944801908</Translation>
+</Transform>
+</Instance>
+<Instance name="pin header-1" uid="pin header-1" entityUid="pin header*:*Default">
+<Transform>
+<Rotation>-1 -1.2755490226518626e-16 -9.2148511043887993e-15 1.2755490226518665e-16 -1 0 -9.2148511043887993e-15 0 1</Rotation>
+<Translation>0.016024615586528512 0.010386866740018319 0.0098416039448018799</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small-8" uid="Resistor small-8" entityUid="Resistor small*:*Default">
+<Transform>
+<Rotation>1.2246467991473515e-16 0 -1 0 1 0 1 0 1.2246467991473537e-16</Rotation>
+<Translation>0.0033702155865285022 0.011531423749928049 0.015697603944801852</Translation>
+</Transform>
+</Instance>
+<Instance name="Base-1" uid="Base-1" grounded="true" entityUid="Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.007248915586528501 0.010958366740018322 0.016572603944801922</Translation>
+</Transform>
+</Instance>
+<Instance name="S2NH chip-1" uid="S2NH chip-1" entityUid="S2NH chip*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.016102615586528507 0.012379866740018286 0.016572603944801867</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small-3" uid="Resistor small-3" entityUid="Resistor small*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.016102615586528521 0.011531423749928049 0.019372603944801892</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small-4" uid="Resistor small-4" entityUid="Resistor small*:*Default">
+<Transform>
+<Rotation>1.2246467991473515e-16 0 1 0 1 0 -1 0 1.2246467991473537e-16</Rotation>
+<Translation>0.013977615586528505 0.011531423749928049 0.015697603944801852</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small black-3" uid="Resistor small black-3" entityUid="Resistor small black*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.012627615586528501 0.011529866740018324 0.015697603944801852</Translation>
+</Transform>
+</Instance>
+<Instance name="Small LED-1" uid="Small LED-1" entityUid="Small LED*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.00036521558652852226 0.011529866740018324 0.015697603944801908</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small black-6" uid="Resistor small black-6" entityUid="Resistor small black*:*Default">
+<Transform>
+<Rotation>1.2246467991473515e-16 0 -1 0 1 0 1 0 1.2246467991473515e-16</Rotation>
+<Translation>0.0018702155865285008 0.011529866740018324 0.019321603944801868</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor black-1" uid="Resistor black-1" entityUid="Resistor black*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.007248915586528501 0.012379866740018342 0.02164660394480189</Translation>
+</Transform>
+</Instance>
+<Instance name="Resistor small-5" uid="Resistor small-5" entityUid="Resistor small*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.012627615586528515 0.011531423749928049 0.019321603944801868</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="incoder-2" uid="incoder-2" entityUid="incoder*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20478257022860802 0.17784982944516028 0.30310518412098658</Translation>
+</Transform>
+</Instance>
+<Instance name="incoder-1" uid="incoder-1" entityUid="incoder*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.25817288669488708 0.17784982944516031 0.30310518412098658</Translation>
+</Transform>
+</Instance>
+<Instance name="Assem1-3" uid="Assem1-3" entityUid="Assem1" rigid="true">
+<Transform>
+<Rotation>1 -1.7457406694215692e-14 1.0474444016529339e-14 1.04744440165294e-14 3.4914813388430111e-15 -1 1.7457406694215654e-14 1 3.4914813388431945e-15</Rotation>
+<Translation>0.18565256242619863 0.15377141596579771 -0.13465528462733534</Translation>
+</Transform>
+<Instance name="battery-2" uid="battery-2" entityUid="battery*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.052598352389177871 0.41476046874827421 0.104021586274848</Translation>
+</Transform>
+</Instance>
+<Instance name="4-4" uid="4-4" entityUid="4*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.015159992197589872 0.43776046874827357 -0.024078413479368427</Translation>
+</Transform>
+</Instance>
+<Instance name="25ga-370-280-rpm-dc Motor.stp-1" uid="25ga-370-280-rpm-dc Motor.stp-1" grounded="true" entityUid="25ga-370-280-rpm-dc Motor.stp*:*Default">
+<Transform>
+<Rotation>0 0 1 -0.28203319088549839 0.95940464833090333 0 -0.95940464833090333 -0.28203319088549839 0</Rotation>
+<Translation>0.11332032426868921 0.43776046874832519 -0.024078413479363014</Translation>
+</Transform>
+</Instance>
+<Instance name="4-3" uid="4-3" entityUid="4*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.020840007802410215 0.43776046874827357 -0.024078413479367428</Translation>
+</Transform>
+</Instance>
+<Instance name="IGVC Wheel-2" uid="IGVC Wheel-2" entityUid="IGVC Wheel*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99674207421358774 -0.080655052491428805 0 0.080655052491428805 0.99674207421358774</Rotation>
+<Translation>-0.089387974465889211 0.43780654587024659 -0.024078413588479675</Translation>
+</Transform>
+</Instance>
+<Instance name="battery-1" uid="battery-1" entityUid="battery*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.052779516284353845 0.41476046874827444 -0.15997841372515226</Translation>
+</Transform>
+</Instance>
+<Instance name="IGVC Wheel-1" uid="IGVC Wheel-1" entityUid="IGVC Wheel*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.9541183713062602 0.29942968045250512 0 -0.29942968045250512 0.9541183713062602</Rotation>
+<Translation>0.11064730658447997 0.43780467531195899 -0.024091408859400698</Translation>
+</Transform>
+</Instance>
+<Instance name="25ga-370-280-rpm-dc Motor.stp-2" uid="25ga-370-280-rpm-dc Motor.stp-2" grounded="true" entityUid="25ga-370-280-rpm-dc Motor.stp*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.011669992197589851 0.43776046874827357 -0.024078413479367233</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 150 mm-5" uid="V-Slot 150 mm-5" grounded="true" entityUid="V-Slot 150 mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.084059833964450298 0.41212823570124002 -0.077978413725152074</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 260mm-4" uid="V-Slot 260mm-4" entityUid="V-Slot 260mm*:*Default">
+<Transform>
+<Rotation>-3.491481338843133e-15 0 1 0 1 0 -1 0 -3.4914813388431337e-15</Rotation>
+<Translation>-0.074059833964450927 0.41212823570124002 -0.21797841372515198</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 260mm-6" uid="V-Slot 260mm-6" entityUid="V-Slot 260mm*:*Default">
+<Transform>
+<Rotation>-1.2001491200675412e-16 0 1 1 -2.7755575615628874e-16 1.2001491200675412e-16 2.7755575615628953e-16 1 0</Rotation>
+<Translation>-0.0740598339644504 0.41212823570124002 0.16202158627484797</Translation>
+</Transform>
+</Instance>
+<Instance name="Part1-2" uid="Part1-2" entityUid="Part1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.050840166035549694 0.40950046874827362 -0.024078413725152237</Translation>
+</Transform>
+</Instance>
+<Instance name="4-1" uid="4-1" entityUid="4*:*Default">
+<Transform>
+<Rotation>0 0 -0.99999999999999978 -1.205674449167306e-12 0.99999999999999989 0 0.99999999999999989 1.205674449167306e-12 0</Rotation>
+<Translation>0.11684032426868923 0.43776046874832519 -0.024078413479363014</Translation>
+</Transform>
+</Instance>
+<Instance name="4-2" uid="4-2" entityUid="4*:*Default">
+<Transform>
+<Rotation>0 0 0.99999999999999978 0 0.99999999999999989 0 -0.99999999999999989 0 0</Rotation>
+<Translation>0.080840324268689145 0.43776046874827357 -0.024078413479367428</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 150 mm-6" uid="V-Slot 150 mm-6" entityUid="V-Slot 150 mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.18594016603554975 0.41212823570124024 -0.077978413725152157</Translation>
+</Transform>
+</Instance>
+<Instance name="wheel ball-4" uid="wheel ball-4" entityUid="wheel ball*:*Default">
+<Transform>
+<Rotation>1.1067535776732017e-15 -1.1697522185934737e-16 0.99999999999999978 0 -1 -1.1697522185935369e-16 0.99999999999999978 0 -1.1067535776732039e-15</Rotation>
+<Translation>0.11634016603554964 0.40132774020306727 -0.16657841493884318</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 150 mm-12" uid="V-Slot 150 mm-12" entityUid="V-Slot 150 mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.18594016603554658 0.53212823570124146 -0.077978413725151907</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 150 mm-13" uid="V-Slot 150 mm-13" entityUid="V-Slot 150 mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.084059833964450062 0.60543823570124056 -0.077978413725152351</Translation>
+</Transform>
+</Instance>
+<Instance name="casterball-3" uid="casterball-3" entityUid="casterball*:*Default">
+<Transform>
+<Rotation>-0.6598607976492733 -0.73110750856547757 -0.17339417131162443 0.69315541410376647 -0.50321733982361339 -0.51605026964384215 0.29003327330549677 -0.46071045117299664 0.83882452310103173</Rotation>
+<Translation>0.11634016603554975 0.38653380208160693 0.1184215862748477</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 100mm-6" uid="V-Slot 100mm-6" entityUid="V-Slot 100mm*:*Default">
+<Transform>
+<Rotation>-7.093091898474509e-16 -1 2.4518217890461695e-15 -4.2948115587631038e-15 2.4518217891506904e-15 1 -1 7.0930919026396738e-16 -4.2948115587631022e-15</Rotation>
+<Translation>-0.084059833964446343 0.79212823570126867 -0.21797841372508714</Translation>
+</Transform>
+</Instance>
+<Instance name="casterball-1" uid="casterball-1" entityUid="casterball*:*Default">
+<Transform>
+<Rotation>0.29753108834067898 -0.84893129818893254 -0.43679617950030775 0.91724549868263561 0.38109494066180682 -0.11587640548626374 0.26483192144689471 -0.36617249645109595 0.89206600441083861</Rotation>
+<Translation>-0.014659833964450308 0.38653380208160693 -0.16657841372515225</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 100mm-5" uid="V-Slot 100mm-5" entityUid="V-Slot 100mm*:*Default">
+<Transform>
+<Rotation>9.2981178332534739e-16 -1 -2.7863995826588349e-16 7.238568946006322e-15 -2.7863995825988499e-16 1.0000000000000002 -1.0000000000000002 -9.2981178334456522e-16 7.2385689460063236e-15</Rotation>
+<Translation>-0.084059833964450367 0.79212823570121071 0.16202158627494312</Translation>
+</Transform>
+</Instance>
+<Instance name="wheel ball-2" uid="wheel ball-2" entityUid="wheel ball*:*Default">
+<Transform>
+<Rotation>-3.4694469519536083e-16 0 -1 0 -1 0 -1 0 3.4694469519536201e-16</Rotation>
+<Translation>-0.014659833964450281 0.40132774020306727 -0.16657841251146138</Translation>
+</Transform>
+</Instance>
+<Instance name="wheel ball-5" uid="wheel ball-5" entityUid="wheel ball*:*Default">
+<Transform>
+<Rotation>1.3322676295501871e-15 0 1.0000000000000002 -1.0449406726343275e-16 -1 0 1.0000000000000002 -1.044940672634363e-16 -1.3322676295501886e-15</Rotation>
+<Translation>0.11634016603554975 0.40132774020306727 0.11842158506115678</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 150 mm-11" uid="V-Slot 150 mm-11" entityUid="V-Slot 150 mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.084059833964453171 0.53212823570123979 -0.077978413725152074</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 100mm-7" uid="V-Slot 100mm-7" entityUid="V-Slot 100mm*:*Default">
+<Transform>
+<Rotation>-1.8041124156128427e-16 -1 7.6304228446535356e-15 2.2222293227352501e-15 7.6304228446535561e-15 1.0000000000000002 -1.0000000000000002 1.8041124156130668e-16 2.2222293227352509e-15</Rotation>
+<Translation>0.18594016603555502 0.79212823570123914 0.16202158627484875</Translation>
+</Transform>
+</Instance>
+<Instance name="wheel ball-3" uid="wheel ball-3" entityUid="wheel ball*:*Default">
+<Transform>
+<Rotation>1.3877787807814445e-15 0 1 -1.22280014468098e-16 -1 0 1 -1.2228001446810036e-16 -1.3877787807814463e-15</Rotation>
+<Translation>-0.014659833964450253 0.40132774020306716 0.11842158506115684</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 50mm-3" uid="V-Slot 50mm-3" entityUid="V-Slot 50mm*:*Default">
+<Transform>
+<Rotation>1 -8.0736751821026196e-16 2.2899980393633444e-15 2.2899980393633633e-15 3.1550273888717945e-14 -1.0000000000000002 8.0736751821019007e-16 1.0000000000000002 3.1550273888717945e-14</Rotation>
+<Translation>-0.084059833964449965 0.27212823570123973 -0.21797841372514865</Translation>
+</Transform>
+</Instance>
+<Instance name="casterball-2" uid="casterball-2" entityUid="casterball*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014659833964450253 0.38653380208160693 0.11842158627484775</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 50mm-1" uid="V-Slot 50mm-1" entityUid="V-Slot 50mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.491481338843133e-15 -1 0 1 -3.4914813388431337e-15</Rotation>
+<Translation>-0.084059833964450298 0.27212823570123945 0.16202158627484897</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 50mm-4" uid="V-Slot 50mm-4" entityUid="V-Slot 50mm*:*Default">
+<Transform>
+<Rotation>1 -2.4881052717364819e-16 7.198829277187275e-16 7.1988292771759154e-16 -4.3643013328139995e-15 -1 2.4881052717346291e-16 1 -4.3643013328140003e-15</Rotation>
+<Translation>0.1859401660355498 0.27212823570124006 0.16202158627484742</Translation>
+</Transform>
+</Instance>
+<Instance name="cover 331 400-2" visible="false" uid="cover 331 400-2" entityUid="cover 331 400*:*Default">
+<Transform>
+<Rotation>1.0474444016529476e-14 2.094888803305875e-14 1 6.9829626776861436e-15 1 -2.0948888033058825e-14 -1 6.9829626776863653e-15 1.0474444016529324e-14</Rotation>
+<Translation>-0.094559833964440065 0.56993823570124269 -0.027978413725155388</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 150 mm-14" uid="V-Slot 150 mm-14" entityUid="V-Slot 150 mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.18594016603554697 0.60543823570124167 -0.077978413725151602</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 50mm-2" uid="V-Slot 50mm-2" entityUid="V-Slot 50mm*:*Default">
+<Transform>
+<Rotation>1 0 -1.0425826887478269e-15 -1.0425826887823758e-15 -1.9381765740714374e-15 -1.0000000000000002 0 1.0000000000000002 -1.9381765740714386e-15</Rotation>
+<Translation>0.1859401660355508 0.27212823570124001 -0.21797841372515131</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 260mm-9" uid="V-Slot 260mm-9" entityUid="V-Slot 260mm*:*Default">
+<Transform>
+<Rotation>-6.6613381477512863e-16 0 0.99999999999999978 0.99999999999999978 0 6.6613381477505921e-16 0 1 0</Rotation>
+<Translation>-0.074059833964453328 0.53212823570123957 0.162021586274848</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 100mm-8" uid="V-Slot 100mm-8" entityUid="V-Slot 100mm*:*Default">
+<Transform>
+<Rotation>-8.4808702005516296e-16 -1 6.7917797012366485e-15 0 6.7917797012366737e-15 1.0000000000000002 -1.0000000000000002 8.4808702005514797e-16 0</Rotation>
+<Translation>0.18594016603555447 0.79212823570123914 -0.21797841372515231</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 50mm-8" uid="V-Slot 50mm-8" entityUid="V-Slot 50mm*:*Default">
+<Transform>
+<Rotation>1 1.04744440165294e-14 1.7457406694215654e-14 -1.7457406694215692e-14 3.4914813388430111e-15 1 1.0474444016529339e-14 -1 3.4914813388431945e-15</Rotation>
+<Translation>-0.084059833964436823 0.86543823570124145 0.16202158627484331</Translation>
+</Transform>
+</Instance>
+<Instance name="casterball-4" uid="casterball-4" entityUid="casterball*:*Default">
+<Transform>
+<Rotation>0.56519446575517329 0.8114168186914259 -0.14885550787394394 -0.8154480211782944 0.57682772858746068 0.048107133452687453 0.12489892167720351 0.094194043746493095 0.9876880790444702</Rotation>
+<Translation>0.11634016603554964 0.38653380208160704 -0.16657841372515225</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 260mm-10" uid="V-Slot 260mm-10" entityUid="V-Slot 260mm*:*Default">
+<Transform>
+<Rotation>-1.0037599590532726e-15 3.53297096273921e-16 1 1.0000000000000002 -6.6617095521448513e-16 8.9338928815516381e-16 6.6765000787608166e-16 1 -3.5329710785263381e-16</Rotation>
+<Translation>-0.074059833964443919 0.60543823570124 0.16202158627484198</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 260mm-11" uid="V-Slot 260mm-11" entityUid="V-Slot 260mm*:*Default">
+<Transform>
+<Rotation>-3.040171352280434e-16 0 1 1.0000000000000002 9.6733427263785421e-15 3.0401741615389153e-16 -9.6733427263785421e-15 1.0000000000000002 0</Rotation>
+<Translation>-0.074059833964450553 0.60543823570126709 -0.21797841372508936</Translation>
+</Transform>
+</Instance>
+<Instance name="1-1" uid="1-1" entityUid="1*:*Default">
+<Transform>
+<Rotation>0 4.9411161373907937e-15 -0.99999999999999967 -1.212801683388229e-15 1 4.9411161373907921e-15 1 1.2128016833882302e-15 0</Rotation>
+<Translation>0.17594016603555279 0.54842823570123911 0.22552158627484803</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 260mm-12" uid="V-Slot 260mm-12" entityUid="V-Slot 260mm*:*Default">
+<Transform>
+<Rotation>1.3059486103682353e-14 -8.1526062963891277e-15 0.99999999999999978 0.99999999999999989 -1.7746342929760507e-13 -1.3059486103683802e-14 1.7746342929760518e-13 0.99999999999999989 8.15260629638681e-15</Rotation>
+<Translation>-0.074059833964439992 0.72543823570128008 -0.2179784137250303</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 260mm-13" uid="V-Slot 260mm-13" entityUid="V-Slot 260mm*:*Default">
+<Transform>
+<Rotation>1.1628548799007134e-14 0 1 1 0 -1.1628548799007136e-14 0 1 0</Rotation>
+<Translation>-0.074059833964442073 0.72543823570124133 0.1620215862748412</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 50mm-5" uid="V-Slot 50mm-5" entityUid="V-Slot 50mm*:*Default">
+<Transform>
+<Rotation>1 1.04744440165294e-14 1.7457406694215654e-14 -1.7457406694215692e-14 3.4914813388430111e-15 1 1.0474444016529339e-14 -1 3.4914813388431945e-15</Rotation>
+<Translation>0.18594016603556762 0.86543823570123779 -0.21797841372514692</Translation>
+</Transform>
+</Instance>
+<Instance name="cover 138 288-2" visible="false" uid="cover 138 288-2" entityUid="cover 138 288*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.050940166035551987 0.47312823570124174 -0.22847841372514943</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 50mm-6" uid="V-Slot 50mm-6" entityUid="V-Slot 50mm*:*Default">
+<Transform>
+<Rotation>1 1.04744440165294e-14 1.7457406694215654e-14 -1.7457406694215692e-14 3.4914813388430111e-15 1 1.0474444016529339e-14 -1 3.4914813388431945e-15</Rotation>
+<Translation>0.18594016603556351 0.86543823570123657 0.16202158627485325</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 150 mm-16" uid="V-Slot 150 mm-16" entityUid="V-Slot 150 mm*:*Default">
+<Transform>
+<Rotation>-1.4705992822929413e-14 1 -1.2271756081271744e-14 -1.0000000000000002 -1.4705992822930915e-14 -1.3344308637121752e-13 -1.3344308637121774e-13 1.2271756081269787e-14 1.0000000000000002</Rotation>
+<Translation>0.18594016603556451 0.72543823570124766 -0.077978413725052431</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 50mm-7" uid="V-Slot 50mm-7" entityUid="V-Slot 50mm*:*Default">
+<Transform>
+<Rotation>1 1.04744440165294e-14 1.7457406694215654e-14 -1.7457406694215692e-14 3.4914813388430111e-15 1 1.0474444016529339e-14 -1 3.4914813388431945e-15</Rotation>
+<Translation>-0.084059833964433409 0.86543823570124268 -0.21797841372515675</Translation>
+</Transform>
+</Instance>
+<Instance name="cover 138 288-1" visible="false" uid="cover 138 288-1" entityUid="cover 138 288*:*Default">
+<Transform>
+<Rotation>-1 1.7457406694215616e-14 3.4914813388431953e-15 1.7457406694215642e-14 1 6.9829626776862659e-15 -3.4914813388430718e-15 6.9829626776863282e-15 -1</Rotation>
+<Translation>0.050940166035560175 0.66643823570124117 -0.22797841372515359</Translation>
+</Transform>
+</Instance>
+<Instance name="cover 138 288-4" visible="false" uid="cover 138 288-4" entityUid="cover 138 288*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.050940166035546908 0.47312823570124141 0.1720215862748482</Translation>
+</Transform>
+</Instance>
+<Instance name="Holder Door-1" uid="Holder Door-1" entityUid="Holder Door*:*Default">
+<Transform>
+<Rotation>1 8.8030388552583241e-16 -8.0416111508305032e-15 -7.9175840024431137e-16 0.99993945101887738 0.01100428535008635 8.0508113546198504e-15 -0.01100428535008635 0.99993945101887738</Rotation>
+<Translation>0.050675597576843201 0.73509203666445377 -0.095815962333338084</Translation>
+</Transform>
+</Instance>
+<Instance name="V-Slot 150 mm-15" uid="V-Slot 150 mm-15" entityUid="V-Slot 150 mm*:*Default">
+<Transform>
+<Rotation>-1.3619074321739366e-14 1 -8.1526062963891245e-15 -1 -1.3619074321740821e-14 -1.7815037979409189e-13 -1.7815037979409199e-13 8.1526062963866933e-15 1</Rotation>
+<Translation>-0.084059833964441028 0.72543823570125543 -0.077978413725030282</Translation>
+</Transform>
+</Instance>
+<Instance name="cover 331 400-1" visible="false" uid="cover 331 400-1" entityUid="cover 331 400*:*Default">
+<Transform>
+<Rotation>-3.4914813388432679e-15 -1.0474444016529335e-14 1 -1.04744440165294e-14 -1 -1.0474444016529375e-14 1 -1.0474444016529436e-14 3.4914813388431562e-15</Rotation>
+<Translation>0.1959401660355537 0.5699382357012388 -0.027978413725151724</Translation>
+</Transform>
+</Instance>
+<Instance name="Part4-1" uid="Part4-1" entityUid="Part4*:*Default">
+<Transform>
+<Rotation>-3.491481338843133e-15 0 1 0 1 0 -1 0 -3.4914813388431337e-15</Rotation>
+<Translation>0.050790166035549755 0.52956046874827389 -0.031879970877972869</Translation>
+</Transform>
+</Instance>
+<Instance name="cover 138 288-3" visible="false" uid="cover 138 288-3" entityUid="cover 138 288*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.050940166035553375 0.66643823570123939 0.17202158627484826</Translation>
+</Transform>
+</Instance>
+<Instance name="Holder-1" uid="Holder-1" entityUid="Holder*:*Default">
+<Transform>
+<Rotation>-1 1.3059486103682715e-14 8.152606296388566e-15 1.3059486103683806e-14 0.99999999999999989 1.333320640687551e-13 -8.1526062963868258e-15 1.333320640687552e-13 -0.99999999999999989</Rotation>
+<Translation>0.051940166035558011 0.65543823570124338 -0.028978413725071123</Translation>
+</Transform>
+</Instance>
+<Instance name="Part3-2" uid="Part3-2" entityUid="Part3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.11634016603554975 0.38653380208160693 0.1184215862748477</Translation>
+</Transform>
+</Instance>
+<Instance name="Part3-1" uid="Part3-1" entityUid="Part3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.014659833964450253 0.38653380208160693 0.11842158627484775</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem1-3</Uid>
+<Uid>25ga-370-280-rpm-dc Motor.stp-1</Uid>
+</InstancePath>
+<Position>0 0 -0.030799999999999994</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>incoder-1</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Assem1-3</Uid>
+<Uid>25ga-370-280-rpm-dc Motor.stp-1</Uid>
+</InstancePath>
+<Position>0 0 -0.030799999999999994</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>incoder-1</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Assem1-3</Uid>
+<Uid>25ga-370-280-rpm-dc Motor.stp-2</Uid>
+</InstancePath>
+<Position>0 0 -0.030799999999999994</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>incoder-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem1-3</Uid>
+<Uid>Part4-1</Uid>
+</InstancePath>
+<Position>0 0.0051999999999999824 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPU 6050 IMU-1</Uid>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 -0.00057150000000000256 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Assem1-3</Uid>
+<Uid>Part4-1</Uid>
+</InstancePath>
+<Position>0.19000000000000003 0.0052000000000000379 0.13125000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>MPU 6050 IMU-1</Uid>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.010553700000000013 -0.00057150000000000256 0.0078739999999999366</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assem1-3</Uid>
+<Uid>V-Slot 150 mm-11</Uid>
+</InstancePath>
+<Position>0.009999999999999995 0 0.25000000000000011</Position>
+<Axis>1 5.5958821805703363e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MPU 6050 IMU-1</Uid>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.010553699999999999 0.00057149999999994705 0.0078739999999999921</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="MPU 6050 IMU" uid="MPU 6050 IMU" version="214">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MPU 6050 IMU.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assem1" uid="Assem1" version="2571">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assem1.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="1" uid="1*:*Default" version="4252">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.66641823313774862</Mass>
+<CenterOfMass>-0.038616716527684308 0.020838196029929337 0.12437310190227151</CenterOfMass>
+<Inertia>0.0032042478869223636 0.00334143657625175 0.00034925014374929286 -2.8104847188238114e-06 -1.924317253693946e-05 -1.1015886593665588e-05</Inertia>
+</MassProperties>
+<GeometryFile name="1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Diffuse r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Specular r="0.050980392156862744" g="0.050980392156862744" b="0.050980392156862744" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000298023224</Shininess>
+</VisualProperties>
+</Part>
+<Part name="25ga-370-280-rpm-dc Motor.stp" uid="25ga-370-280-rpm-dc Motor.stp*:*Default" version="199">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="25ga-370-280-rpm-dc Motor.stp.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.049183116817229366</Mass>
+<CenterOfMass>2.4961408250065676e-13 -1.3837743884281921e-06 -0.0050830001933161303</CenterOfMass>
+<Inertia>1.2857469955554634e-05 1.2853254043678201e-05 3.6375206939303356e-06 2.1974973792460259e-09 0 7.7753556450217268e-16</Inertia>
+</MassProperties>
+<GeometryFile name="25ga-370-280-rpm-dc Motor.stp_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="4" uid="4*:*Default" version="147">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.018757144362147701</Mass>
+<CenterOfMass>0 -0.014128180590828678 0.0027499999999999998</CenterOfMass>
+<Inertia>6.5957334402748948e-06 5.0804867155418445e-06 1.1581652886324244e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="4_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base" uid="Base*:*Default" version="128">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00082746890241681872</Mass>
+<CenterOfMass>2.3859645391847048e-06 0 -0.00011590477750188245</CenterOfMass>
+<Inertia>1.645422795192595e-08 4.6168863991020601e-08 2.9894810359110235e-08 0 1.3060258296457024e-11 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.52941176470588236" g="0.5490196078431373" b="0.5490196078431373" a="1"/>
+<Specular r="0.37058823529411761" g="0.3843137254901961" b="0.3843137254901961" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Holder Door" uid="Holder Door*:*Default" version="261">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Holder Door.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.3484124743533486</Mass>
+<CenterOfMass>-0.00023543154129241972 0.061152092021366747 -0.0083094418842818343</CenterOfMass>
+<Inertia>0.0015533436072797341 0.0039571723298345149 0.0033803849341450831 -0.00048315791971209355 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Holder Door_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999999999999996" g="0.69999999999999996" b="0.69999999999999996" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Holder" uid="Holder*:*Default" version="251">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Holder.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.1882351091321053</Mass>
+<CenterOfMass>0 0.062329457281030572 -0.02578718269519327</CenterOfMass>
+<Inertia>0.021390016039140015 0.027430675960643417 0.015243047328453685 0.002190230618965003 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Holder_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999999999999996" g="0.69999999999999996" b="0.69999999999999996" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="IGVC Wheel" uid="IGVC Wheel*:*Default" version="528">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="IGVC Wheel.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.31527656986149055</Mass>
+<CenterOfMass>0.040303850009155061 5.5500616968420315e-13 2.815032657607241e-11</CenterOfMass>
+<Inertia>0.00053363229955491291 0.0003129657150017425 0.00031296331387439423 3.2763756428233499e-14 -6.8165712145485379e-14 -1.1901330354055908e-13</Inertia>
+</MassProperties>
+<GeometryFile name="IGVC Wheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part1" uid="Part1*:*Default" version="323">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.52378167739191828</Mass>
+<CenterOfMass>2.1068808408119518e-05 0.0025746960946970389 1.4174413798958083e-05</CenterOfMass>
+<Inertia>0.0074203210109611718 0.0099271871320600787 0.002509839704761048 4.1198674254763932e-08 8.7008287015393749e-07 5.7299605986935592e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Part1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part3" uid="Part3*:*Default" version="224">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0023735184756313323</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>6.5011264427161115e-08 6.5011264427161101e-08 6.5011264427161101e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part4" uid="Part4*:*Default" version="139">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.61499791623353051</Mass>
+<CenterOfMass>1.1286884252122037e-07 0.0025941318945933147 4.8715207573150404e-05</CenterOfMass>
+<Inertia>0.0035452761315382538 0.010961047309035979 0.0074185398349674988 -4.8113099670167079e-08 -9.7559123860025771e-09 -1.0989534224502111e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Part4_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Resistor black" uid="Resistor black*:*Default" version="150">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Resistor black.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.3719507223661737e-06</Mass>
+<CenterOfMass>0 -1.3298875618763828e-05 0</CenterOfMass>
+<Inertia>2.9583639547279453e-12 7.4179549057817993e-12 7.2917494257770707e-12 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Resistor black_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Resistor small black" uid="Resistor small black*:*Default" version="175">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Resistor small black.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.9461808009747393e-07</Mass>
+<CenterOfMass>-3.7827724416136124e-07 0.00020825036812230653 0</CenterOfMass>
+<Inertia>6.1676551713639816e-14 3.4611509868400996e-13 3.1183076329407439e-13 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Resistor small black_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Resistor small" uid="Resistor small*:*Default" version="139">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Resistor small.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.4052496744748938e-06</Mass>
+<CenterOfMass>0 0.00038690593059505023 0</CenterOfMass>
+<Inertia>1.729017402938379e-13 5.7208681470920314e-13 5.7992782247359845e-13 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Resistor small_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="S2NH chip" uid="S2NH chip*:*Default" version="163">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="S2NH chip.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.1887250781265487e-06</Mass>
+<CenterOfMass>-6.1792800758382134e-10 -0.00013742476992373637 -2.2792050647260374e-05</CenterOfMass>
+<Inertia>2.9233992110846029e-12 6.4918242573237607e-12 5.1349707308155558e-12 -6.2589638596892769e-14 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="S2NH chip_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Small LED" uid="Small LED*:*Default" version="130">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Small LED.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.9608933201416624e-07</Mass>
+<CenterOfMass>0 0.00037026236068867538 0</CenterOfMass>
+<Inertia>2.0516848567362018e-13 2.0116532661664715e-13 1.0796294229442442e-13 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Small LED_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="V-Slot 100mm" uid="V-Slot 100mm*:*Default" version="239">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="V-Slot 100mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.024771049802744676</Mass>
+<CenterOfMass>0 0 -0.2233450000000001</CenterOfMass>
+<Inertia>6.9128968447763357e-06 6.9128968447763348e-06 2.0927543411671069e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="V-Slot 100mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="V-Slot 150 mm" uid="V-Slot 150 mm*:*Default" version="450">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="V-Slot 150 mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18586418910331712</Mass>
+<CenterOfMass>0 0 0.050000000000000024</CenterOfMass>
+<Inertia>0.0024860404517514792 0.0024860404517514792 1.5702527414497099e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="V-Slot 150 mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="V-Slot 260mm" uid="V-Slot 260mm*:*Default" version="451">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="V-Slot 260mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1161651181895732</Mass>
+<CenterOfMass>0 0 0.12500000000000008</CenterOfMass>
+<Inertia>0.00060993369705439056 0.00060993369705439056 9.8140796340606774e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="V-Slot 260mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="V-Slot 50mm" uid="V-Slot 50mm*:*Default" version="272">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="V-Slot 50mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.04646604727582937</Mass>
+<CenterOfMass>0 0 -0.20000000000000001</CenterOfMass>
+<Inertia>4.0684521990002829e-05 4.0684521990002829e-05 3.9256318536242798e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="V-Slot 50mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="battery" uid="battery*:*Default" version="134">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="battery.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.49993069879939961</Mass>
+<CenterOfMass>-3.5858540791619882e-08 0.028496719423791065 -9.7938813068587419e-09</CenterOfMass>
+<Inertia>0.00051931975392677113 0.00046836450713448434 0.0002196992418581439 1.3473305680572902e-10 4.3145674551618469e-11 4.9318482344929064e-10</Inertia>
+</MassProperties>
+<GeometryFile name="battery_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="casterball" uid="casterball*:*Default" version="225">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="casterball.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0023735184756313323</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>6.5011264427161115e-08 6.5011264427161101e-08 6.5011264427161101e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="casterball_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="cover 138 288" uid="cover 138 288*:*Default" version="140">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="cover 138 288.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1574787</Mass>
+<CenterOfMass>0 0 0.00025000000000000001</CenterOfMass>
+<Inertia>0.00024992197770625001 0.0011036665033062499 0.0013535819194000001 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="cover 138 288_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999999999999996" g="0.69999999999999996" b="0.69999999999999996" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="cover 331 400" uid="cover 331 400*:*Default" version="129">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="cover 331 400.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.52099400000000007</Mass>
+<CenterOfMass>0 0 0.00025000000000000001</CenterOfMass>
+<Inertia>0.0047567294902083343 0.0069465975207083338 0.011703305302833335 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="cover 331 400_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999999999999996" g="0.69999999999999996" b="0.69999999999999996" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="incoder" uid="incoder*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="incoder.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0039686954594636446</Mass>
+<CenterOfMass>0.0049999999999999992 0 0</CenterOfMass>
+<Inertia>2.9259703361828153e-07 1.7937097897133781e-07 1.7937097897133776e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="incoder_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pin header" uid="pin header*:*Default" version="143">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="pin header.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.667178923699999e-05</Mass>
+<CenterOfMass>0 0.0015422331367489868 0</CenterOfMass>
+<Inertia>5.8312059279603432e-11 1.2351496821752082e-11 5.7816483738498417e-11 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="pin header_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="sensor chip" uid="sensor chip*:*Default" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="sensor chip.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.4790774242366915e-05</Mass>
+<CenterOfMass>0 0.00042190165090881602 0</CenterOfMass>
+<Inertia>2.2050207258784024e-11 4.2086933875364013e-11 2.2050207258784027e-11 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="sensor chip_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wheel ball" uid="wheel ball*:*Default" version="231">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="wheel ball.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0066064346355763203</Mass>
+<CenterOfMass>3.6410727479650019e-09 0.0093818143643809235 0</CenterOfMass>
+<Inertia>5.5726469477998191e-07 7.9319614332227779e-07 5.1557262513497893e-07 0 0 -6.9044898079228661e-14</Inertia>
+</MassProperties>
+<GeometryFile name="wheel ball_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
