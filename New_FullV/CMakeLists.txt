@@ -7,17 +7,20 @@ find_package(catkin REQUIRED
    rospy
    sensor_msgs
    std_msgs
+   std_srvs
    image_geometry 
    image_transport
    geometry_msgs
    nav_msgs
+   tf
    tf2
    tf2_ros
+   serial
 
 )
 include_directories(${catkin_INCLUDE_DIRS})
 catkin_package(
-  CATKIN_DEPENDS roscpp sensor_msgs  image_geometry image_transport
+  CATKIN_DEPENDS roscpp sensor_msgs  image_geometry image_transport serial
 )
 
 find_package(roslaunch)
