@@ -1,0 +1,29 @@
+<launch>
+  <node name="encoder" pkg="New_FullV" type="serial_node_enc.py">
+	<param name="port" type="string" value="/dev/ttyUSB0"/>
+	<param name="baud" type="int" value="115200" />
+  </node>
+  <node name="control" pkg="New_FullV" type=" serial_node_cont.py ">
+	<param name="port" type="string" value="/dev/ttyACM0"/>
+	<param name="baud" type="int" value="115200" />
+  </node>
+  <node name="kinect" pkg="depthimage_to_laserscan" type=" depthimage_to_laserscan">
+	<param name="image" type="string" value="kinect2/sd/image_depth"/>
+  </node>
+  
+  <node name="mpu6050_serial_to_imu_node" pkg="New_FullV" type=" mpu6050_serial_to_imu_node2"/>
+  
+  <include file="$(find New_FullV)/launch/NewFullV_slam.launch">
+	<arg name="slam_methods" type="string" value="gmapping"/>
+  </include>
+  <include file="$(find kinect2_bridge)/launch/kinect2_bridge.launch">
+	<arg name="publish_tf" type="string" value="true"/>
+  </include>
+
+  <node name="bcl" pkg="tf " type="static_transform_publisher" args="0 -0.381 -0.0483 -1.5708 0 0 base_link camera_link 1000" />
+  <node name="bk" pkg="tf " type="static_transform_publisher" args="0 -0.381 -0.0483 -1.5708 0 0 base_link kinect2_link 1000" />
+  <node name="bcd" pkg="tf " type="static_transform_publisher" args=" 0 -0.381 -0.0483 -1.5708 0 0 base_link camera_depth_frame 1000" />
+
+
+
+</launch>

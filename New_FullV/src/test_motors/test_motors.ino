@@ -20,9 +20,9 @@ void loop() {
   // put your main code here, to run repeatedly:
 digitalWrite(M1CW, HIGH);
 digitalWrite(M1CCW, LOW);
-analogWrite(PWM1, 100);
+analogWrite(PWM1, 250);
 digitalWrite(M2CW, HIGH);
 digitalWrite(M2CCW, LOW);
-analogWrite(PWM2, 100);
+analogWrite(PWM2, 250);
 
 }
